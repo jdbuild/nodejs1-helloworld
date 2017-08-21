@@ -4,8 +4,11 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
+
+
 app.get('/', function (req, res) {
   res.send('Hello World!');
+  console.log("hello world");
 });
 
 app.listen(app.get('port'), function() {
