@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jdbuild/nodejs1-helloworld/issues"
   },
-  "homepage": "https://github.com/jdbuild/nodejs1-helloworld#readme"
+  "homepage": "https://github.com/jdbuild/nodejs1-helloworld#readme",
+  "dependencies": {
+    "cool-ascii-faces": "1.3.4"
+  }
 }
