@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/file', function (req, res) {
-        res.sendFile('test.html');
+        res.sendFile(__dirname + 'test.html');
 });
 
 app.listen(app.get('port'), function() {
