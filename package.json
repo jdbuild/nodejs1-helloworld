@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jdbuild/nodejs1-helloworld#readme",
   "dependencies": {
-    "cool-ascii-faces": "1.3.4"
+    "cool-ascii-faces": "1.3.4",
+    "express": "^4.15.4"
   }
 }
