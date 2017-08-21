@@ -7,8 +7,8 @@ app.set('port', (process.env.PORT || 5000));
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
-  console.log("hello world");
+  res.send('Hello World2!');
+  console.log("hello world2");
 });
 
 app.listen(app.get('port'), function() {
